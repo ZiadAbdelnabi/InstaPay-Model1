@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(to right,rgb(214, 123, 66) ,rgb(74, 25, 112) );
+}
+.image{
+    background-color: rgb(51, 17, 77);
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    border-radius: 15px;
+ }
+
+.login{
+    align-content:center ;
+    position: fixed;
+    padding: 50px;
+    width: 350px ;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 512px;
+    margin-right: auto;
+    backdrop-filter: blur(250px)    
+}
+.logo{
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top:15px ;
+    border-radius: 15px;
+
+}
+
+.sub{
+    border-radius: 20px;
+    background-color: rgb(74, 25, 112) ;
+    color: white;
+    height: 45px;
+    width: 100px;
+    margin-left: 132px;
+    font-size: 18px;
+}
+input.sub:hover{
+    color:rgb(207, 161, 240)  ;
+}
+input.sub:active{
+    color: rgb(251, 219, 172) ;
+}
+
+.dform{
+    background-color:rgb(51, 17, 77) ;
+    width: 450px;
+    height: 30%;
+    transform: translateX(-50px);
+    border-radius: 20px;
+    margin-top: -130px;
+    margin-bottom: 50px;
+}
+legend{
+    color: white; 
+    font-size: 45px;
+    text-align: center; 
+    margin-bottom: 25px; 
+    animation-name: exam;
+    animation-duration: 6s;
+    transform: translateY(30px);
+ } 
+@keyframes exam {
+    from {color: rgb(111, 50, 158);}
+    to {color: white;}
+  }
+label{color: aliceblue; font-size: 20px;margin-left: 100px; }
+input{border-radius: 5px; background-color: antiquewhite; height: 20px; margin-top: 5px; margin-left: 95px;margin-bottom: 15px;}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-left: 128px;
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(207, 161, 240);
+}
+a:active{ color: blanchedalmond;}
