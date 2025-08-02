@@ -1,0 +1,77 @@
+HTML{
+    background: linear-gradient(to right , rgb(214, 123, 66),rgb(74, 25, 112));
+}
+.first{
+    background: linear-gradient(to left , rgb(214, 123, 66),rgb(74, 25, 112));
+    text-align: center;
+    background-position: center ;
+    border:  rgb(66, 49, 78) ;
+    border-radius: 10%;
+    width: 920px;
+    height: 470px;
+    margin: 7% 20% 5% 15%;
+}
+h1{
+    position: absolute;
+    top: 5px;
+    left: 38%;
+}
+h2{
+    font-size: 50px;
+}
+.second{
+    position: absolute;
+    left: 21%;
+
+}
+a{
+    text-decoration: none;
+    color: #fbfafd;
+}
+.V{
+    background-color: blue;
+    width: 100PX;
+    height: 50PX;
+}
+.three{
+    position: absolute;
+    left: 55%;
+}
+.form123{
+    position: absolute;
+    top: 38%;
+    left: 42%;
+}
+.L{
+    position: absolute;
+    top: 3%;
+    left: 0%;
+}
+.A{
+    position: absolute;
+    top: 42%;
+    left: 0%;
+}
+.B{
+    position: absolute;
+    left: 44%;
+    top:78%;
+    background-color: rgb(53, 53, 56);
+    width: 100PX;
+    height: 50PX;
+}
+#L{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+#A{
+    position: absolute;
+    top: 58%;
+    left: 6%;
+}
+#D{
+    position: absolute;
+    top: 2%;
+    left: 0%;
+}

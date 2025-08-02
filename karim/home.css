@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(214, 123, 66), rgb(74, 25, 112)); /* Background gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #6a0dad;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  /* Updated account info section */
+  .account-info {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: -10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .account-info h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #6a0dad;
+  }
+  
+  /* Display account info horizontally */
+  .account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .email {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 30px;
+  }
+  
+  .services h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #6a0dad;
+    text-align: center;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .service-item {
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    color: #6a0dad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid #6a0dad;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .service-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .service-item:hover {
+    background-color: #6a0dad;
+    color: #ffffff;
+    transform: scale(1.1);
+  }
